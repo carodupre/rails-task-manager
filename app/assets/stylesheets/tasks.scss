@@ -1,0 +1,76 @@
+// Place all the styles related to the tasks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+h1 {
+font-family: 'Lobster', cursive;
+// font-family: 'Lobster', cursive;
+font-size: 22px;
+}
+
+.container {
+  margin-top: 50px;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  background-color: #ffebd3;
+  border-radius: 8px;
+}
+
+h2 {
+font-family: 'Darker Grotesque', sans-serif;
+font-size: 10px;
+}
+
+p {
+
+text-decoration: none;
+font-family: 'Darker Grotesque', sans-serif;
+font-size: 17px;
+font-weight: lighter;
+
+}
+
+a {
+  text-decoration: none;
+  font-size: 19px;
+  font-family: 'Darker Grotesque', sans-serif;
+}
+
+.fa-plus {
+    font-size: 19px;
+    text-align: right;
+    color: green;
+    padding-top: 10px;
+}
+
+li {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 19px;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-gap: 14px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.card h5 {
+  font-family: 'Lobster', cursive;
+  font-size: 20px;
+  color: #3e3838;
+}
+
+.card-link {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  color: #6cbbb3;
+}
+
+
+.card h6 {
+  font-size: 14px;
+  font-style: italic;
+}
